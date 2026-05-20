@@ -1,5 +1,5 @@
 # 共通モジュール
-common_lib/
+common_lib_mw/
 
 # 仮想環境
 .venv/
