@@ -4,6 +4,6 @@
 
 # 注意
 共通モジュールを使うため以下のコマンド実施すること。
-(GitHubからインストールされる)
-`git clone https://github.com/BUMZOH/common_lib_mw.git`
+(GitHubからインストールされる) 
+`git clone https://github.com/BUMZOH/common_lib_mw.git` 
 また、common_lib_mw内の「.git」フォルダは不要なので削除しておくこと。
