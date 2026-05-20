@@ -5,7 +5,7 @@ KV-5000の目標日産数(DM1990)を確認/変更する
 
 from pathlib import Path
 import configparser
-from common import kv_com as kvc
+from common_lib_mw import kv_com as kvc
 
 # --- CONSTANTS -------------------------------------------
 SETTING_PATH = Path("setting.ini")
@@ -124,7 +124,7 @@ def main():
         return
 
     print('---- プログラム終了 ----')
-    input("")   # 自動でコンソールが閉じるのを防ぐ
+    input("何かキーを押してください")   # 自動でコンソールが閉じるのを防ぐ
 
 
 if __name__=="__main__":
